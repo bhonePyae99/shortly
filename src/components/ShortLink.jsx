@@ -42,6 +42,7 @@ const ShortLink = () => {
     } catch (ex) {
       console.log(ex.response);
     }
+    setInputLink("");
   };
 
   return (
